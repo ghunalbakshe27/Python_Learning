@@ -10,5 +10,11 @@ print(
 )
 
 '''
-print("Hey", 9, 6)
+# print("Hey", 9, 6)
 # print("Hy she is \"\"my girl\"\nand i am her \"Man\"")
+
+a = complex(2, 3)
+print(a)
+# print("the value of a is", a, "and its type is", type(a))
+
+
