@@ -1,4 +1,4 @@
-====================== Modules ======================
+# ====================== Modules ======================
 
 # Types of Modules in Python
 1. Built-in Modules -- `math, os, random, sys` || Already comes with python
@@ -8,29 +8,38 @@
 # How to use Modules in Python 
 "Import a built-in module"
 
-# Syntax:- `import math`    
-
 # Using import keyword you can import packages to make program easy
+Syntax:- `import math`    
+
+# modules in print statement
 print(math.sqrt(25))
 print(math.pi)
 
-====================== Escape sequence character ======================
+# ====================== Escape sequence character ======================
 # \n → New Line
 # \t → Tab Space
 # \\ → Backslash
 # \' → Single Quote
 #  \" → Double Quote
 
-@ More on  print statement 
-# print("Hey", 9, 6, sep = "~")     from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
- @ Default seprater is space " "
-# print("Hey", 9, 6, end = "88")     from the end the value in the end is printed in the end   Hey 9 688
- @ Default end  is new line "\n"
+#  More on  print statement 
+# print("Hey", 9, 6, sep = "~")     
+→ from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
 
-====================== variables and Datatypes ======================
-# Datatype:- The datatype specifies the type of value a variable holds.
+@ Default seprater is space " "
 
-# type(a) -- we wil use this function when we want to show the type of the variables data
+# print("Hey", 9, 6, end = "88")     
+→from the end the value in the end is printed in the end   Hey 9 688
+
+@ Default end  is new line "\n"
+
+# ====================== variables and Datatypes ======================
+
+# Datatype:- 
+The datatype specifies the type of value a variable holds.
+
+# type(a):- 
+we wil use this function when we want to show the type of the variables data
 
 | Data           |  Type      | Python Name        | Example                        
 | :---           | :---       | :---               | :---
@@ -45,7 +54,7 @@ print(math.pi)
 | **Dictionary** | `dict`     | `{"name": "John"}` |`print({"name": "John"})`
 | **None**       | `NoneType` | `None`             |`print(None)`
 
-====================== Operators ======================
+# ====================== Operators ======================
 
 # Arithmetic Operators
 
@@ -59,16 +68,16 @@ print(math.pi)
 | `%`      | Modulus (Remainder) | `print(10 % 3)`  | `1`    |
 | `**`     | Exponent (Power)    | `print(2 ** 3)`  | `8`    |
 
-====================== Typecasting ======================
+# ====================== Typecasting ======================
 # Typecasting: The conversion of the one datatype into other data type is known as type casting in python.
 
 # Python supports a wide variety of functions or methods like:- int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc for the type casting in python.
 
-@ Two types of type casting in python
+# Two types of type casting in python
 1. Explicit type casting -- The manual type casting perform by programmer. -- `num = "10" || print(int(num))  ||  # Output: 10`
 2. Implicit type casting -- The automatic type casting perform by the python  it self. -- `a = 10 ||  b = 2.5 || print(a + b) ||# Output: 12.5`
 
-in implicit type casting the python convert the smaller datatype into higher datatype 
+# In implicit type casting the python convert the smaller datatype into higher datatype 
 Rank-4 -- complex
 Rank-3 -- float
 Rank-2 -- integer
