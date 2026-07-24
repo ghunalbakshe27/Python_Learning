@@ -16,11 +16,11 @@ print(math.sqrt(25))
 print(math.pi)
 
 # ======== Escape sequence character ========
-# New Line  → \n 
-# Tab Space → \t 
-# Backslash → Backward shlash + ' (\) + \
-# Single Quote → Backward shlash + ' (\) + '
-# Double Quote → Backward shlash + " (\) + "
+# 1. New Line  → \n 
+# 2. Tab Space → \t 
+# 3. Backslash → Backward shlash +  Backward shlash
+# 4. Single Quote → Backward shlash + ' (single Quote)
+# 5. Double Quote → Backward shlash + " (Double Quote)
 
 # ======== More on  print statement ========
 
