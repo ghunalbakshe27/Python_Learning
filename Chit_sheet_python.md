@@ -58,3 +58,18 @@ print(math.pi)
 | `//`     | Floor Division      | `print(10 // 3)` | `3`    |
 | `%`      | Modulus (Remainder) | `print(10 % 3)`  | `1`    |
 | `**`     | Exponent (Power)    | `print(2 ** 3)`  | `8`    |
+
+====================== Typecasting ======================
+# Typecasting: The conversion of the one datatype into other data type is known as type casting in python.
+
+# Python supports a wide variety of functions or methods like:- int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc for the type casting in python.
+
+@ Two types of type casting in python
+1. Explicit type casting -- The manual type casting perform by programmer. -- `num = "10" || print(int(num))  ||  # Output: 10`
+2. Implicit type casting -- The automatic type casting perform by the python  it self. -- `a = 10 ||  b = 2.5 || print(a + b) ||# Output: 12.5`
+
+in implicit type casting the python convert the smaller datatype into higher datatype 
+Rank-4 -- complex
+Rank-3 -- float
+Rank-2 -- integer
+Rank-1 -- Boolean
