@@ -1,13 +1,15 @@
 ====================== Modules ======================
 
 # Types of Modules in Python
-1. Built-in Modules
-2. External Modules / User Defined
+1. Built-in Modules -- `math, os, random, sys` || Already comes with python
+2. External Modules / User Defined -- `calculator.py, mymodule.py` || Created by programmer
+3. External Modules -- `numpy, pandas, requests, django` || Installed using pip , Third party modules
 
 # How to use Modules in Python 
 "Import a built-in module"
 
-import math    
+# Syntax:- `import math`    
+
 # Using import keyword you can import packages to make program easy
 print(math.sqrt(25))
 print(math.pi)
@@ -26,6 +28,8 @@ print(math.pi)
  @ Default end  is new line "\n"
 
 ====================== variables and Datatypes ======================
+# Datatype:- The datatype specifies the type of value a variable holds.
+
 # type(a) -- we wil use this function when we want to show the type of the variables data
 
 | Data           |  Type      | Python Name        | Example                        
@@ -40,3 +44,17 @@ print(math.pi)
 | **Set**        | `set`      | `{1, 2, 3}`        |`print({1, 2, 3})`
 | **Dictionary** | `dict`     | `{"name": "John"}` |`print({"name": "John"})`
 | **None**       | `NoneType` | `None`             |`print(None)`
+
+====================== Operators ======================
+
+# Arithmetic Operators
+
+| Operator |       Meaning       |      Example     | Output |
+| :-----   | :---                | :---             | :---:  |
+| `+`      | Addition            | `print(10 + 5)`  | `15`   |
+| `-`      | Subtraction         | `print(10 - 5)`  | `5`    |
+| `*`      | Multiplication      | `print(10 * 5)`  | `50`   |
+| `/`      | Division            | `print(10 / 5)`  | `2.0`  |
+| `//`     | Floor Division      | `print(10 // 3)` | `3`    |
+| `%`      | Modulus (Remainder) | `print(10 % 3)`  | `1`    |
+| `**`     | Exponent (Power)    | `print(2 ** 3)`  | `8`    |
