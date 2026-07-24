@@ -11,18 +11,19 @@
 # Using import keyword you can import packages to make program easy
 Syntax:- `import math`    
 
-# modules in print statement
+# Modules in print statement
 print(math.sqrt(25))
 print(math.pi)
 
 # ======== Escape sequence character ========
-# \n → New Line
-# \t → Tab Space
-# \\ → Backslash
-# \' → Single Quote
-#  \" → Double Quote
+# New Line  → \n 
+# Tab Space → \t 
+# Backslash → \\
+# Single Quote → \'
+# Double Quote → \"
 
-#  More on  print statement 
+# ======== More on  print statement ========
+
 # print("Hey", 9, 6, sep = "~")     
 → from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
 
@@ -33,13 +34,15 @@ print(math.pi)
 
 @ Default end  is new line "\n"
 
-# ======== variables and Datatypes ========
+# ======== Variables and Datatypes ========
 
 # Datatype:- 
 The datatype specifies the type of value a variable holds.
 
 # type(a):- 
 we wil use this function when we want to show the type of the variables data
+
+# ======== Data Type Table with Example ========
 
 | Data           |  Type      | Python Name        | Example                        
 | :---           | :---       | :---               | :---
@@ -69,16 +72,18 @@ we wil use this function when we want to show the type of the variables data
 | `**`     | Exponent (Power)    | `print(2 ** 3)`  | `8`    |
 
 # ======== Typecasting ========
-# Typecasting: The conversion of the one datatype into other data type is known as type casting in python.
+# Typecasting: 
+The conversion of the one datatype into other data type is known as type casting in python.
 
-# Python supports a wide variety of functions or methods like:- int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc for the type casting in python.
+# Python supports a wide variety of functions or methods for the type casting in python:- 
+int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc.
 
 # Two types of type casting in python
 1. Explicit type casting -- The manual type casting perform by programmer. -- `num = "10" || print(int(num))  ||  # Output: 10`
 2. Implicit type casting -- The automatic type casting perform by the python  it self. -- `a = 10 ||  b = 2.5 || print(a + b) ||# Output: 12.5`
 
 # In implicit type casting the python convert the smaller datatype into higher datatype 
-Rank-4 -- complex
-Rank-3 -- float
-Rank-2 -- integer
-Rank-1 -- Boolean
+1. Rank-4 -- complex
+2. Rank-3 -- float
+3. Rank-2 -- integer
+4. Rank-1 -- Boolean
