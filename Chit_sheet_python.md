@@ -18,9 +18,9 @@ print(math.pi)
 # ======== Escape sequence character ========
 # New Line  → \n 
 # Tab Space → \t 
-# Backslash → \\
-# Single Quote → \'
-# Double Quote → \"
+# Backslash → Backward shlash + ' (\) + \
+# Single Quote → Backward shlash + ' (\) + '
+# Double Quote → Backward shlash + " (\) + "
 
 # ======== More on  print statement ========
 
