@@ -1,4 +1,4 @@
-# ====================== Modules ======================
+# ======== Modules ========
 
 # Types of Modules in Python
 1. Built-in Modules -- `math, os, random, sys` || Already comes with python
@@ -15,7 +15,7 @@ Syntax:- `import math`
 print(math.sqrt(25))
 print(math.pi)
 
-# ====================== Escape sequence character ======================
+# ======== Escape sequence character ========
 # \n → New Line
 # \t → Tab Space
 # \\ → Backslash
@@ -33,7 +33,7 @@ print(math.pi)
 
 @ Default end  is new line "\n"
 
-# ====================== variables and Datatypes ======================
+# ======== variables and Datatypes ========
 
 # Datatype:- 
 The datatype specifies the type of value a variable holds.
@@ -54,7 +54,7 @@ we wil use this function when we want to show the type of the variables data
 | **Dictionary** | `dict`     | `{"name": "John"}` |`print({"name": "John"})`
 | **None**       | `NoneType` | `None`             |`print(None)`
 
-# ====================== Operators ======================
+# ======== Operators ========
 
 # Arithmetic Operators
 
@@ -68,7 +68,7 @@ we wil use this function when we want to show the type of the variables data
 | `%`      | Modulus (Remainder) | `print(10 % 3)`  | `1`    |
 | `**`     | Exponent (Power)    | `print(2 ** 3)`  | `8`    |
 
-# ====================== Typecasting ======================
+# ======== Typecasting ========
 # Typecasting: The conversion of the one datatype into other data type is known as type casting in python.
 
 # Python supports a wide variety of functions or methods like:- int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc for the type casting in python.
