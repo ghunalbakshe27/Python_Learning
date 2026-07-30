@@ -25,12 +25,12 @@ print(math.pi)
 # ======== More on  print statement ========
 
 # print("Hey", 9, 6, sep = "~")     
-→ from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
+**→** from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
 
 @ Default seprater is space " "
 
 # print("Hey", 9, 6, end = "88")     
-→from the end the value in the end is printed in the end   Hey 9 688
+**→**from the end the value in the end is printed in the end   Hey 9 688
 
 @ Default end  is new line "\n"
 
@@ -87,3 +87,16 @@ int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc.
 2. Rank-3 -- float
 3. Rank-2 -- integer
 4. Rank-1 -- Boolean
+
+# INPUT funtion in python
+
+# What is Input function
+In python, we can take user input directly by using **input()** function. This input function gives a return value as string/character hence we have to pass that into a variable.      
+
+**Syntax**
+a = input()
+
+# With datatype
+a = int(input("Enter here you data:"))
+
+**→** The default data type of ***input()*** is **str (string)**.
