@@ -25,7 +25,7 @@ print(math.pi)
 # ======== More on  print statement ========
 
 # print("Hey", 9, 6, sep = "~")     
-**→** from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
+→ from the sep the value in the sep is printed betwen the value printd before  Hey~9~6
 
 @ Default seprater is space " "
 
@@ -91,7 +91,7 @@ int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(),etc.
 # INPUT funtion in python
 
 # What is Input function
-In python, we can take user input directly by using **input()** function. This input function gives a return value as string/character hence we have to pass that into a variable.      
+In python, we can take user input directly by using ***input()*** function. This input function gives a return value as string/character hence we have to pass that into a variable.      
 
 **Syntax**
 a = input()
