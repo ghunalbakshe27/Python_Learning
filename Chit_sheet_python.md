@@ -5,7 +5,7 @@
 2. External Modules / User Defined -- `calculator.py, mymodule.py` || Created by programmer
 3. External Modules -- `numpy, pandas, requests, django` || Installed using pip , Third party modules
 
-**★ How to use Modules in Python **
+**★ How to use Modules in Python**
 "Import a built-in module"
 
 **★ Using import keyword you can import packages to make program easy**
@@ -72,7 +72,7 @@ we wil use this function when we want to show the type of the variables data
 | `**`     | Exponent (Power)    | `print(2 ** 3)`  | `8`    |
 
 # ======== Typecasting ========
-**★ Typecasting: **
+**★ Typecasting:**
 The conversion of the one datatype into other data type is known as type casting in python.
 
 **★ Python supports a wide variety of functions or methods for the type casting in python:-**
