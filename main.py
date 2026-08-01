@@ -27,5 +27,21 @@ print(
 
 # print(bool(ascii_value))
 
-a = int(input("Enter here you data:"))
-print(a)
+# Here i created a string in the tripe single quotes and then print it.
+# a = '''
+# Hey 
+# hello
+# goodmoring
+# '''
+
+# print(a)
+
+# for count in a:
+#     print(count, + index(count))
+
+
+""""name = "python"
+print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not included)"""
+
+name = "Harry"
+print(name[-4:-2])  

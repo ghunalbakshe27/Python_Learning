@@ -99,4 +99,35 @@ a = input()
 # With datatype
 a = int(input("Enter here you data:"))
 
-**→** The default data type of ***input()*** is **str (string)**.
+→ The default data type of ***input()*** is **str (string)**.
+
+# ======== String ========
+
+**What are string**
+
+→ In python, anything that you enclose between single and double quotation marks is considered as string. Strings are used when working unicode.
+
+**When you enclose any multiple line in the triple single quotes ***'''  '''*** the all lines become string**
+
+**String Slicing**
+
+→ The string slicin means print the sefic part of the string ex. In ***pyhton*** from **h** point to **o** point.
+→ In the string slicing [0:2] including 0 but ignores the 2 means **index 0's** value will be taken but not of the **index 2nd**. 
+
+|**Syntax**       |  **Output** |
+|name = "python"  |     ython   |
+|print(name[1:5]) |             |
+
+→ In **Minus (-)** slicing
+
+|**Syntax**         |  **Output** |   the Ptyhon does like this **print(name[len(name)-3:len(name)-1])** ***5-3 = 2 & 5-1 = 4***  from index 2 to 4.
+|name = "Mango"     |     ng      |
+|print(name[-3:-1]) |             |
+
+**Length function**
+
+→ By using the **len()** Function you can print the length of the string which is stored in variables.
+
+|**Syntax**       |  **Output** |
+|name = "python"  |      6      |
+|print(len(name)) |             |
