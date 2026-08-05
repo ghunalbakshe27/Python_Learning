@@ -187,9 +187,9 @@ a = int(input("Enter here you data:"))
 | `print(name.capitalize())`|             | 
 
 
-→ The **center()** method aligns the string to the center as per the parameters given by the user.
+→ The **center()** method aligns the string to the center as per the parameters given by the user. It add the 25 spaces on the both to match the total width requested 50. On left side 12 and right side 13.
 
-|              **Syntax**             |                 **Output**                |
-| :-----------------------------------| :-----------------------------------------|
-| `str1 = "Welcome to the Console!!!"`| `            Welcome to the Console!!!`   |
-| `print(str1.center(50))`            |                                           | 
+|              **Syntax**             |                         **Output**                     |
+| :-----------------------------------| :------------------------------------------------------|
+| `str1 = "Welcome to the Console!!!"`| `            Welcome to the Console!!!             `   |
+| `print(str1.center(50))`            |                                                        | 
