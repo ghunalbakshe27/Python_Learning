@@ -107,11 +107,13 @@ a = int(input("Enter here you data:"))
 
 → In python, anything that you enclose between single and double quotation marks is considered as string. Strings are used when working unicode.
 
+→ String are immutable in python string methods operate on the existing string then return the new string.
+
 **When you enclose any multiple line in the triple single quotes ***'''  '''*** the all lines become string**
 
 **★ String Slicing**
 
-→ The string slicin means print the sefic part of the string ex. In ***pyhton*** from **h** point to **o** point.
+→ The string slicing means print the sefic part of the string ex. In ***pyhton*** from **h** point to **o** point.
 → In the string slicing [0:2] including 0 but ignores the 2 means **index 0's** value will be taken but not of the **index 2nd**. 
 
 |      **Syntax**    |    **Output** |
@@ -136,3 +138,58 @@ a = int(input("Enter here you data:"))
 | :----------------- | :--------- |
 | `name = "python"`  |     `6`    |
 | `print(len(name))` |            |
+
+**★ Other Operation on string**
+
+→ By using the **.upper()** you can convert your string into ***UPPER*** case. 
+
+|      **Syntax**      | **Output** |
+| :--------------------| :----------|
+| `name = "Mango"`     |   `MANGO`  |
+| `print(name.upper())`|            |
+
+→ By using the **.lower()** you can convert your string into ***LOWER*** case. 
+
+|      **Syntax**      | **Output** |
+| :--------------------| :----------|
+| `name = "Mango"`     |   `mango`  |
+| `print(name.lower())`|            |
+
+→ By using the **.rstrip()** you can ***REMOVE*** any trailing chracters. 
+
+|      **Syntax**          | **Output** |
+| :------------------------| :----------|
+| `name = "Men!!$"`        |    `Men$`  |
+| `print(name.rstrip("!"))`|            |
+
+
+→ By using the **.replace()** you can ***REPLACE*** the  chracters existing characters of the string. 
+
+|             **Syntax**           |   **Output** |
+| :--------------------------------| :------------|
+| `name = "Men"`                   |    `Women`   |
+| `print(name.replace("M", "Wom"))`|              |
+
+
+→ By using the **.split()** you can ***SPLIT*** from the specified instance and returns the seprated strings as a list item. 
+
+|             **Syntax**    |       **Output**      |
+| :-------------------------| :---------------------|
+| `name = "Men Women"`      |    `['Men', 'Women']` |
+| `print(name.split(" "))`  |                       | 
+
+
+→ By using the **.capitalize()** you can convert the first character of the string into  ***CAPITAL*** & the rest of the character will be in lower case. 
+
+|        **Syntax**         |  **Output** |
+| :-------------------------| :-----------|
+| `name = "men"`            |     `Men`   |
+| `print(name.capitalize())`|             | 
+
+
+→ The **center()** method aligns the string to the center as per the parameters given by the user.
+
+|              **Syntax**             |                 **Output**                |
+| :-----------------------------------| :-----------------------------------------|
+| `str1 = "Welcome to the Console!!!"`| `            Welcome to the Console!!!`   |
+| `print(str1.center(50))`            |                                           | 

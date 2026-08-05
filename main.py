@@ -43,5 +43,19 @@ print(
 """"name = "python"
 print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not included)"""
 
-name = "Harry"
-print(name[-4:-2])  
+# name = "Error"
+# print(name[-4:-2])  
+# print(name.upper())  # This will print the string in uppercase letters
+# print(name.lower())  # This will print the string in lowercase letters
+
+# strip_name = "Men!!$"
+# replace_name = "Men"
+# print(replace_name.replace("M", "Wom"))  # This will replace the character "M" with "Wom" in the string
+# print(strip_name.rstrip("$"))  # This will remove the trailing characters "!" and "$" from the string
+
+# split_name = "James Nare"
+# print(split_name.split(" "))  # This will split the string into a list of words based on the space character
+
+str1 = "Welcome to the Console!!!"
+print(str1.center(50))  # This will center the string within a width of 50 characters, adding spaces on both sides.
+print(len(str1.center(50))) #This center will add 25 spaces in starting to make the string length 50 and then print the length of the string which is 50.
