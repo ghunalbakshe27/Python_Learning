@@ -113,7 +113,7 @@ a = int(input("Enter here you data:"))
 
 **★ String Slicing**
 
-→ The string slicing means print the sefic part of the string ex. In ***pyhton*** from **h** point to **o** point.
+→ The string slicing means print the specific part of the string ex. In ***pyhton*** from **"h"** point to **"o"** point.
 
 → In the string slicing [0:2] including 0 but ignores the 2 means **index 0's** value will be taken but not of the **index 2nd**. 
 
