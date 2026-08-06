@@ -155,6 +155,15 @@ a = int(input("Enter here you data:"))
 | `name = "Mango"`     |   `mango`  |
 | `print(name.lower())`|            |
 
+
+→ The **strip()** method removes any white spaces before and after the string.
+
+|      **Syntax**      | **Output** |
+| :--------------------| :----------|
+| `name = "  Mango "`  |   `Mango`  |
+| `print(name.strip())`|            |
+
+
 → By using the **.rstrip()** you can ***REMOVE*** any trailing chracters. 
 
 |      **Syntax**          | **Output** |
@@ -189,7 +198,95 @@ a = int(input("Enter here you data:"))
 
 → The **center()** method aligns the string to the center as per the parameters given by the user. It add the 25 spaces on the both to match the total width requested 50. On left side 12 and right side 13.
 
+
 |              **Syntax**             |                         **Output**                     |
 | :-----------------------------------| :------------------------------------------------------|
 | `str1 = "Welcome to the Console!!!"`| `            Welcome to the Console!!!             `   |
 | `print(str1.center(50))`            |                                                        | 
+
+→ The **count()** method returns the number of times the given value has occurred within the given string. 
+
+|        **Syntax**     |  **Output** |
+| :---------------------| :-----------|
+| `name = "menn"`       |     `2`     |
+| `print(name.count(n))`|             | 
+
+
+→ The **endswith()** method checks if the string ends with a given value. If yes then return True, else return False. 
+
+|           **Syntax**          |  **Output** |
+| :-----------------------------| :-----------|
+| `name = "men!!"`              |     `True`  |
+| `print(name.endswith(("!!")))`|             | 
+
+
+→ The **find()** method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then return -1.     
+
+|         **Syntax**        | **Output** |
+| :-------------------------|:-----------|
+| `name = "me and"`         |    `4`     |
+| `print(name.find(("nd")))`|            |
+
+
+→ The **index()** method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then raise an exception.
+
+|         **Syntax**         | **Output** |
+| :--------------------------|:-----------|
+| `name = "me and"`          |    `4`     |
+| `print(name.index(("nd")))`|            |
+
+
+→ The **isalnum()** method returns True only if the entire string only consists of A-Z, a-z, 0-9. If any other characters or punctuations are present, then it returns False.
+
+|         **Syntax**     | **Output** |
+| :----------------------|:-----------|
+| `name = "Welcome"`     |   `True`   |
+| `print(name.isalnum())`|            |
+
+
+→ The **isalpha()** method returns True only if the entire string only consists of A-Z, a-z. If any other characters or punctuations or numbers(0-9) are present, then it returns False.
+
+|         **Syntax**     | **Output** |
+| :----------------------|:-----------|
+| `name = "Welcome"`     |   `True`   |
+| `print(name.isalpha())`|            |
+
+
+→ The **islower()** method returns True if all the characters in the string are lower case, else it returns False.
+
+|         **Syntax**     | **Output** |
+| :----------------------|:-----------|
+| `name = "welcome"`     |   `True`   |
+| `print(name.islower())`|            |
+
+
+→ The **isprintable()** method returns True if all the values within the given string are printable, if not, then return False.
+
+|         **Syntax**         | **Output** |   **Not printable string**  |
+| :--------------------------|:-----------| --------------------------- |
+| `name = "welcome"`         |   `True`   |       `We wish you \n`      |                                 
+| `print(name.isprintable())`|            |                             |
+
+
+→ The **isspace()** method returns True only and only if the string contains white spaces, else returns False. This will also return True on **Tab** space
+
+|         **Syntax**     | **Output** |
+| :----------------------|:-----------|
+| `name = "       "`     |   `True`   |
+| `print(name.isspace())`|            |
+
+
+→ The **startswith()** method checks if the string starts with a given value. If yes then return True, else return False.
+
+|           **Syntax**           |  **Output** |
+| :------------------------------| :-----------|
+| `name = "men!!"`               |    `True`   |
+| `print(name.startswith(("m")))`|             | 
+
+
+→ The **swapcase()** method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
+
+|           **Syntax**    |  **Output** |
+| :-----------------------| :-----------|
+| `name = "men"`          |     `MEN`   |
+| `print(name.swapcase())`|             |

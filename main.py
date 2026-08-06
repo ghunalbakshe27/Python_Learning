@@ -1,3 +1,5 @@
+name = "James Nare"
+
 '''
 Lorem ipsum dolor sit amet consectetur adipisicing elit. \n Officiis similique eos sapiente mollitia, enim rerum incidunt officia
 
@@ -56,6 +58,25 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 # split_name = "James Nare"
 # print(split_name.split(" "))  # This will split the string into a list of words based on the space character
 
-str1 = "Welcome to the Console!!!"
-print(str1.center(50))  # This will center the string within a width of 50 characters, adding spaces on both sides.
-print(len(str1.center(50))) #This center will add 25 spaces in starting to make the string length 50 and then print the length of the string which is 50.
+# str1 = "Welcome to the Console!!!"
+# print(str1.center(50))  # This will center the string within a width of 50 characters, adding spaces on both sides.
+# print(len(str1.center(50))) #This center will add 25 spaces in starting to make the string length 50 and then print the length of the string which is 50.
+
+# count_name = "James Nare"
+# print(count_name.count("a"))  # This will count the number of occurrences of the character "a" in the string and print the count.
+# print(count_name.endswith("are"))  # This will check if the string ends with the substring "are" and print True or False.
+
+# str1 = "Welcome to the Console !!!"
+# print(str1.endswith("to", 4, 10))  # This will check if the substring "to" is at the specified position in the string between indices 4 and 10.
+
+# print(name.find("are"))  # This will find the index of the substring "are" in the string and print the index. If not found, it will return -1.
+
+
+# print(name.isalnum())  # This will check if the string contains only alphanumeric characters (letters and numbers)consists of A-Z, a-z no spaces.
+
+# print(name.islower())  # This will check if all characters in the string are lowercase letters and print True or False.
+
+# print(name.isspace())  # This will check if all characters in the string are whitespace characters and print True or False.includes spaces, tabs, and newlines.
+
+# print(name.swapcase())  # This will swap the case of each character in the string, converting uppercase letters to lowercase and vice versa, and print the result.
+
