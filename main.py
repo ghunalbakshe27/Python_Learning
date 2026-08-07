@@ -80,15 +80,18 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # print(name.swapcase())  # This will swap the case of each character in the string, converting uppercase letters to lowercase and vice versa, and print the result.
 
-num = int(input("Enter a number: "))
-if (num < 0):
-    print("Number is negative.")
-elif (num > 0):
-    if (num <= 10):
-        print("Number is between 1-10")
-    elif (num > 10 and num <= 20):
-        print("Number is between 11-20")
-    else:
-        print("Number is greater than 20")
-else:
-    print("Number is zero")
+# num = int(input("Enter a number: "))
+# if (num < 0):
+#     print("Number is negative.")
+# elif (num > 0):
+#     if (num <= 10):
+#         print("Number is between 1-10")
+#     elif (num > 10 and num <= 20):
+#         print("Number is between 11-20")
+#     else:
+#         print("Number is greater than 20")
+# else:
+#     print("Number is zero")
+
+
+
