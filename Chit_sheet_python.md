@@ -291,3 +291,37 @@ a = int(input("Enter here you data:"))
 | :-----------------------| :-----------|
 | `name = "men"`          |     `MEN`   |
 | `print(name.swapcase())`|             |
+
+
+# ======== If Else Statement ========
+
+
+**★ Conditional Operator**
+
+|**Symbols**|  **Symbol name**  |
+| :---------| :------------------ |   
+| `>`       | - `Greater Than`    | 
+| `<`       | - `Less Than`       |
+| `>=`      | - `Greater Equal To`|
+| `<=`      | - `Less Equal To`   |
+| `==`      | - `Equal To`        |
+| `!=`      | - `Not Equal To`    |
+
+**★ If Else Statement**
+
+Sometimes the programmer needs to check the evaluation of certain expression(s), whether the expression(s) evaluate to True or False. If the expression evaluates to False, then the program execution follows a different path than it would have if the expression had evaluated to True.
+
+Based on this, the conditional statements are further classified into following types:
+- if
+- if-else
+- if-else-elif
+- nested if-else-elif.
+
+
+**★ Elif Statement**
+
+Sometimes, the programmer may want to evaluate more than one condition, this can be done using an **elif** statement.
+
+**★ Nested if Statement**
+
+We can use if, if-else, elif statements inside other **if** statements as well.
