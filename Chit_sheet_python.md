@@ -10,7 +10,7 @@
 
 **★ Using import keyword you can import packages to make program easy**
 Syntax:- `import math`    
-
+ 
 **★ Modules in print statement**
 print(math.sqrt(25))
 print(math.pi)
@@ -325,3 +325,24 @@ Sometimes, the programmer may want to evaluate more than one condition, this can
 **★ Nested if Statement**
 
 We can use if, if-else, elif statements inside other **if** statements as well.
+
+# ======== Match Case Statements ========
+
+A match statement will compare a given variable’s value to different shapes, also referred to as the pattern. The main idea is to keep on comparing the variable with all the present patterns until it fits into one.
+
+The match case consists of three main entities :
+
+- The match keyword
+- One or more case clauses
+- Expression for each case
+
+The case clause consists of a pattern to be matched to the variable, a condition to be evaluated if the pattern matches, and a set of statements to be executed if the pattern matches.
+
+|                  **Synatx**                 |  
+| :-------------------------------------------| 
+|                                             |   
+|  match variable_name:                       |
+|            case ‘pattern1’ : //statement1   |
+|            case ‘pattern2’ : //statement2   |
+|            …                                |
+|            case ‘pattern n’ : //statement n |  

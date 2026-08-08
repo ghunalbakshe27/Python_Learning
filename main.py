@@ -94,4 +94,11 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #     print("Number is zero")
 
 
+# number = input("Enter a number: ")
 
+# match number:
+#     case 45:
+#         print("Number is 45")
+#     case _:
+#         print("Number is not number")
+    
