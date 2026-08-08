@@ -346,3 +346,28 @@ The case clause consists of a pattern to be matched to the variable, a condition
 |  `          case ‘pattern2’ : //statement2`   |
 |  `          …                             `   |
 |  `          case ‘pattern n’ : //statement n` |  
+
+
+# ======== Loops ========
+
+**★ What is Loops in Python**
+
+→ Sometimes a programmer wants to execute a group of statements a certain number of times. This can be done using loops. Based on this loops are further classified into following main types;
+
+- for loop
+- while loop
+
+**★ For Loop***
+
+→ for loops can iterate over a sequence of iterable objects in python. Iterating over a sequence is nothing but iterating over strings, lists, tuples, sets and dictionaries.
+
+**★ range()**
+
+→ What if we do not want to iterate over a sequence? What if we want to use for loop for a specific number of times?
+Here, we can use the range() function.
+
+→ The **range()** can have three arguments start stop step
+
+- **Statrt** => From where to start.
+- **Stop** => From where have to stop.
+- **Step** => Take the number step of chracter (e.g. step is 2 the every 2nd chracter like 1,3,5,7.....)

@@ -101,4 +101,12 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #         print("Number is 45")
 #     case _:
 #         print("Number is not number")
-    
+
+
+
+# colors = ["Red", "Green", "Blue", "Yellow"]
+# for x in colors:
+#     print(x)
+#     for y in x:
+#         print(y.capitalize())
+
