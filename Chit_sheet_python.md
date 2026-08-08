@@ -338,11 +338,11 @@ The match case consists of three main entities :
 
 The case clause consists of a pattern to be matched to the variable, a condition to be evaluated if the pattern matches, and a set of statements to be executed if the pattern matches.
 
-|                  **Synatx**                 |  
-| :-------------------------------------------| 
-|                                             |   
-|  match variable_name:                       |
-|            case ‘pattern1’ : //statement1   |
-|            case ‘pattern2’ : //statement2   |
-|            …                                |
-|            case ‘pattern n’ : //statement n |  
+|                  **Synatx**                   |   
+| :---------------------------------------------| 
+|                                               |   
+|  `match variable_name:`                       |
+|  `          case ‘pattern1’ : //statement1`   |
+|  `          case ‘pattern2’ : //statement2`   |
+|  `          …                             `   |
+|  `          case ‘pattern n’ : //statement n` |  
