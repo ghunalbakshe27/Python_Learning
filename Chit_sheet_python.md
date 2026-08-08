@@ -357,7 +357,7 @@ The case clause consists of a pattern to be matched to the variable, a condition
 - for loop
 - while loop
 
-**★ For Loop***
+**★ For Loop**
 
 → for loops can iterate over a sequence of iterable objects in python. Iterating over a sequence is nothing but iterating over strings, lists, tuples, sets and dictionaries.
 
@@ -368,6 +368,6 @@ Here, we can use the range() function.
 
 → The **range()** can have three arguments start stop step
 
-- **Statrt** => From where to start.
-- **Stop** => From where have to stop.
-- **Step** => Take the number step of chracter (e.g. step is 2 the every 2nd chracter like 1,3,5,7.....)
+- **Statrt** → From where to start.
+- **Stop** → From where have to stop.
+- **Step** → Take the number step of chracter (e.g. step is 2 the every 2nd chracter like 1,3,5,7.....)
