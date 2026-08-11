@@ -110,3 +110,10 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #     for y in x:
 #         print(y.capitalize())
 
+
+
+while True:
+  number = int(input("Enter a positive number: "))
+  print(number)
+  if not number > 0:
+    break

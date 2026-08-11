@@ -371,3 +371,10 @@ Here, we can use the range() function.
 - **Statrt** → From where to start.
 - **Stop** → From where have to stop.
 - **Step** → Take the number step of chracter (e.g. step is 2 the every 2nd chracter like 1,3,5,7.....)
+
+**★ While Loop**
+
+→ As the name suggests, while loops execute statements while the condition is True. As soon as the condition becomes False, the interpreter comes out of the while loop.
+
+**Do-While loop** 
+do..while is a loop in which a set of instructions will execute at least once (irrespective of the condition) and then the repetition of loop's body will depend on the condition passed at the end of the while loop. It is also known as an exit-controlled loop.
