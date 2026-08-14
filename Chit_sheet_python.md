@@ -378,3 +378,14 @@ Here, we can use the range() function.
 
 **Do-While loop** 
 do..while is a loop in which a set of instructions will execute at least once (irrespective of the condition) and then the repetition of loop's body will depend on the condition passed at the end of the while loop. It is also known as an exit-controlled loop.
+
+# ======== Break & Continue Statement ========
+
+**★ Break statement**
+
+→ The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
+
+
+**★ Continue statement**
+
+→ The continue statement skips the rest of the loop statements and causes the next iteration to occur.

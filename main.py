@@ -112,8 +112,9 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 
 
-while True:
-  number = int(input("Enter a positive number: "))
-  print(number)
-  if not number > 0:
-    break
+# for i in range(1,101,1):
+#     print(i ,end=" ")
+#     if(i==50):
+#         break
+#     else:
+#         print("Mississippi")
