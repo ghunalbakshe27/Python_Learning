@@ -118,3 +118,24 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #         break
 #     else:
 #         print("Mississippi")
+
+
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# def greater_number(num1, num2):
+#     if num1 > num2:
+#         return num1
+#     else:
+#         return num2
+
+# result = greater_number(num1, num2)
+# print("The greater number is:", result)
+
+
+# def islesser_number(num1, num2):
+#     pass
+
+# islesser_number(num1, num2)
+
+# less = islesser_number(num1, num2)
+# print("The lesser number is:", less)

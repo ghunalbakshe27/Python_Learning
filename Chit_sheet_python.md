@@ -389,3 +389,34 @@ do..while is a loop in which a set of instructions will execute at least once (i
 **★ Continue statement**
 
 → The continue statement skips the rest of the loop statements and causes the next iteration to occur.
+
+
+# ======== Function in Python ========
+
+→ A function is a block of code that performs a specific task whenever it is called. In bigger programs, where we have large amounts of code, it is advisable to create or use existing functions that make the program flow organized and neat.
+
+**★ There are two types of functions:**
+- Built-in functions
+- User Define functions
+
+**★ Built-in functions:**
+
+→ These functions are defined and pre-coded in python. Some examples of built-in functions are as follows:
+
+★ min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), etc.
+
+**★ User-defined functions:**
+
+→ We can create functions to perform specific tasks as per our needs. Such functions are called user-defined functions.
+
+|                  **Code**                  |   
+| :------------------------------------------| 
+|                                            |   
+|  `def name(fname, lname):`                 |
+|  `    print("Hello,", fname, lname)`       |
+|  `          case ‘pattern2’ : //statement2`|
+|  `name("Sam", "Wilson")`                   |  
+
+|       **Output**     |
+| :--------------------| 
+|  `Hello, Sam Wilson` |
