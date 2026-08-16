@@ -149,3 +149,10 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # # this line means how many arguments passed by the user in the numbers thats why used *numbers
 # avrage(5,6,7,8)
+
+
+
+# def name(**name):	
+#     print("Hello,", name["fname"], name["mname"], name["lname"])	#In this the fname mname lname were getting created as a dictionary.
+                                        	
+# name(mname = "Buchanan", lname = "Barnes", fname = "James")
