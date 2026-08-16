@@ -156,3 +156,13 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #     print("Hello,", name["fname"], name["mname"], name["lname"])	#In this the fname mname lname were getting created as a dictionary.
                                         	
 # name(mname = "Buchanan", lname = "Barnes", fname = "James")
+
+
+# list = [1, 2, 3, 4, " "]
+# tuple = (1, 2, 3, 4, 5)
+
+
+# if " " in list:
+#     print(" \" \" is present in the list")
+# else:
+#     print(" \" \" is not present in the list")
