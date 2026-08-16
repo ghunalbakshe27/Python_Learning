@@ -122,6 +122,7 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # num1 = int(input("Enter first number: "))
 # num2 = int(input("Enter second number: "))
+
 # def greater_number(num1, num2):
 #     if num1 > num2:
 #         return num1
@@ -139,3 +140,12 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # less = islesser_number(num1, num2)
 # print("The lesser number is:", less)
+
+# def avrage(*numbers):   
+#     sum = 0
+#     for i in numbers:
+#         sum += i
+#     print(sum / len(numbers))
+
+# # this line means how many arguments passed by the user in the numbers thats why used *numbers
+# avrage(5,6,7,8)
