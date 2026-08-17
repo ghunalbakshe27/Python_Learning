@@ -166,3 +166,8 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #     print(" \" \" is present in the list")
 # else:
 #     print(" \" \" is not present in the list")
+
+
+# names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+# namesWith_O = [item for item in names if "i" in item]
+# print(namesWith_O)
