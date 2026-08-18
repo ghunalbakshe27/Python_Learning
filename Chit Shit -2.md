@@ -16,6 +16,8 @@
 
 - **list.sort()** → This method sorts the list in ascending order. The original list is updated.
 
+- **list.sort(reverse=True)** → To print the list in the descending orders.
+
 - **reverse()** → This method reverses the order of the list.
 
 - **index()** → This method returns the index of the first occurrence of the list item.
@@ -32,3 +34,12 @@
 
 - **Concatenating two lists** → You can simply concatenate two lists to join two lists.
 
+
+
+# ======== Tuple in Python ========
+
+**Python Tuple**
+
+Tuples are ordered collection of data items. They store multiple items in a single variable. Tuple items are separated by commas and enclosed within round brackets (). Tuples are unchangeable meaning we can not alter them after creation.
+
+**★ Tuples are immutable**
