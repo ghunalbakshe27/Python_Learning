@@ -153,7 +153,7 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 
 # def name(**name):	
-#     print("Hello,", name["fname"], name["mname"], name["lname"])	#In this the fname mname lname were getting created as a dictionary.
+#     print("Hello,", name["fname"], name["mname"], name["lname"])	#In this the fname mname lname were gettisng created as a dictionary.
                                         	
 # name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
@@ -176,4 +176,19 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # Tup = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50)
 
-# print(Tup[1:49:2])  # This will print the elements from index 1 to 48 with a step of 2, effectively printing every second element in that range.
+# # print(Tup[1:49:2])  # This will print the elements from index 1 to 48 with a step of 2, effectively printing every second element in that range.
+
+# import time
+
+# t = time.localtime()
+# hours = int(input("Enter hours: ")) 
+
+# if 0 <= hours < 12:
+#     print("Good Morning")
+# elif 12 <= hours < 18:
+#     print("Good Afternoon")
+# elif 18 <= hours < 24:
+#     print("Good Evening")
+# else:
+#     print("Invalid hours entered. Please enter a value between 0 and 23.")
+
