@@ -178,6 +178,8 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # # print(Tup[1:49:2])  # This will print the elements from index 1 to 48 with a step of 2, effectively printing every second element in that range.
 
+#excercise 2
+
 # import time
 
 # t = time.localtime()
@@ -191,4 +193,52 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 #     print("Good Evening")
 # else:
 #     print("Invalid hours entered. Please enter a value between 0 and 23.")
+
+
+# Exercise 3
+
+# #KBC
+
+questions = [
+    "What is the capital of France?",
+    "Which planet is known as the Red Planet?",
+    "Who is known as the Father of the Nation in India?"
+]
+
+options = [
+    ["1. Paris", "2. London", "3. Berlin", "4. Rome"],
+    ["1. Earth", "2. Mars", "3. Jupiter", "4. Venus"],
+    ["1. Mahatma Gandhi", "2. Jawaharlal Nehru", "3. Sardar Patel", "4. Subhash Chandra Bose"]
+]
+
+answers = [1, 2, 1]
+
+amounts = [1000, 5000, 10000]
+
+total_amount = 0
+
+print("🎉 Welcome to KBC 🎉")
+print("Answer the questions and win money!\n")
+
+for i in range(len(questions)):
+
+    print(questions[i])
+
+    for option in options[i]:
+        print(option)
+
+    answer = int(input("Enter your answer (1-4): "))
+
+    if answer == answers[i]:  #this means taking the i number of index from the answers list
+        total_amount = amounts[i] #this means taking the i number of index from the answers list
+        print("🎉 Correct Answer!")
+        print("You won ₹", amounts[i])
+        print()
+    else:
+        print("❌ Wrong Answer!")
+        print("The correct answer was option", answers[i])
+        break
+
+print("\nCongratulations!")
+print("You are taking home ₹", total_amount)
 

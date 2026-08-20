@@ -58,7 +58,7 @@ Tuples are ordered collection of data items. They store multiple items in a sing
 |  `temp[2] = "Finland"         #change item`                     |  
 |  `countries = tuple(temp)`                                      |  
 |  `print(countries)`                                             |
-|                           **OUTPUT**                            |
+|                           **OUTPUT**                            |                         
 |  `('Spain', 'Italy', 'Finland', 'Germany', 'Russia')`           |
 
 
