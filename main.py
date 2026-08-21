@@ -199,46 +199,51 @@ print(name[1:5])  # This will print the characters from index 1 to 4 (5 is not i
 
 # #KBC
 
-questions = [
-    "What is the capital of France?",
-    "Which planet is known as the Red Planet?",
-    "Who is known as the Father of the Nation in India?"
-]
+# questions = [
+#     "What is the capital of France?",
+#     "Which planet is known as the Red Planet?",
+#     "Who is known as the Father of the Nation in India?"
+# ]
 
-options = [
-    ["1. Paris", "2. London", "3. Berlin", "4. Rome"],
-    ["1. Earth", "2. Mars", "3. Jupiter", "4. Venus"],
-    ["1. Mahatma Gandhi", "2. Jawaharlal Nehru", "3. Sardar Patel", "4. Subhash Chandra Bose"]
-]
+# options = [
+#     ["1. Paris", "2. London", "3. Berlin", "4. Rome"],
+#     ["1. Earth", "2. Mars", "3. Jupiter", "4. Venus"],
+#     ["1. Mahatma Gandhi", "2. Jawaharlal Nehru", "3. Sardar Patel", "4. Subhash Chandra Bose"]
+# ]
 
-answers = [1, 2, 1]
+# answers = [1, 2, 1]
 
-amounts = [1000, 5000, 10000]
+# amounts = [1000, 5000, 10000]
 
-total_amount = 0
+# total_amount = 0
 
-print("🎉 Welcome to KBC 🎉")
-print("Answer the questions and win money!\n")
+# print("🎉 Welcome to KBC 🎉")
+# print("Answer the questions and win money!\n")
 
-for i in range(len(questions)):
+# for i in range(len(questions)):
 
-    print(questions[i])
+#     print(questions[i])
 
-    for option in options[i]:
-        print(option)
+#     for option in options[i]:
+#         print(option)
 
-    answer = int(input("Enter your answer (1-4): "))
+#     answer = int(input("Enter your answer (1-4): "))
 
-    if answer == answers[i]:  #this means taking the i number of index from the answers list
-        total_amount = amounts[i] #this means taking the i number of index from the answers list
-        print("🎉 Correct Answer!")
-        print("You won ₹", amounts[i])
-        print()
-    else:
-        print("❌ Wrong Answer!")
-        print("The correct answer was option", answers[i])
-        break
+#     if answer == answers[i]:  #this means taking the i number of index from the answers list
+#         total_amount = amounts[i] #this means taking the i number of index from the answers list
+#         print("🎉 Correct Answer!")
+#         print("You won ₹", amounts[i])
+#         print()
+#     else:
+#         print("❌ Wrong Answer!")
+#         print("The correct answer was option", answers[i])
+#         break
 
-print("\nCongratulations!")
-print("You are taking home ₹", total_amount)
+# print("\nCongratulations!")
+# print("You are taking home ₹", total_amount)
 
+
+# fm = "Skye Cooper"
+# mm = "Jame Nare"
+
+# print(type(f"{fm} playing with {mm}"), f"{fm} playing with {mm}")

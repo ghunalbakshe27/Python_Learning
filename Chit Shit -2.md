@@ -71,4 +71,34 @@ Tuples are ordered collection of data items. They store multiple items in a sing
 |                                    |   
 |  `tuple.index(element, start, end)`|
 
-  
+
+# ======== String formatting in python ========
+
+String formatting can be done in python using the format method.
+
+|               **SYNTAX**                |   
+| :---------------------------------------| 
+|  `txt = "For only {price:.2f} dollars!"`|   
+|  `print(txt.format(price = 49))`        |
+
+# ======== f-strings in python ========
+
+It is a new string formatting mechanism introduced by the PEP 498. It is also known as Literal String Interpolation or more commonly as F-strings (f character preceding the string literal). The primary focus of this mechanism is to make the interpolation easier.
+
+When we prefix the string with the letter 'f', the string becomes the f-string itself. The f-string can be formatted in much same as the str.format() method. The f-string offers a convenient way to embed Python expression inside string literals for formatting.
+
+|                         **SYNTAX**                            |   
+| :-------------------------------------------------------------| 
+|  `val = 'Geeks' `                                             |   
+|  `print(f"{val}for{val} is a portal for {val}.")`             |
+|  `name = 'Tushar'`                                            |
+|  `age = 23 `                                                  |
+|  `print(f"Hello, My name is {name} and I'm {age} years old.")`|
+|                          **OUTPUT**                           |
+|  `Hello, My name is Tushar and I'm 23 years old.)`            |
+
+
+
+**★ We can use it in a single statement as well.**
+
+print(f"{2 * 30})"  
